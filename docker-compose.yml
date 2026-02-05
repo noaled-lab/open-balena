@@ -129,6 +129,7 @@ services:
       REGISTRY2_S3_FORCEPATHSTYLE: "true"
       REGISTRY2_STORAGEPATH: /data
       TOKENS_CONFIG: REGISTRY2_SECRETKEY:hex
+      REGISTRY_STORAGE_S3_SKIPVERIFY: "true" # 임시로 추가
 
   # https://github.com/balena-io/open-balena-vpn
   vpn:
